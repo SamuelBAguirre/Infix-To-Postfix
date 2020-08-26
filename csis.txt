@@ -1,0 +1,48 @@
+    Infix: 8 + 4 * 2 - 6
+  Postfix: 842*+6-842*+6-
+Evaluated: 10
+
+    Infix: 7 * 2 - 4 * 3 + 2 * 5
+  Postfix: 72*43*-25*+72*43*-25*+
+Evaluated: 12
+
+    Infix: 2 * 3 * 4 - 8 + 9 / 3 / 3
+  Postfix: 23*4*8-93/3/+23*4*8-93/3/+
+Evaluated: 17
+
+    Infix: 5 + 7 * 4 - 6
+  Postfix: 574*+6-574*+6-
+Evaluated: 27
+
+    Infix: 4 * ( 3 + 2 * 4 ) - 7
+  Postfix: 4324*+*7-4324*+*7-
+Evaluated: 37
+
+    Infix: ( 5 + 7 ) / ( 9 - 5 )
+  Postfix: 57+95-/57+95-/
+Evaluated: 3
+
+    Infix: 3 * ( 5 * ( 5 - 2 ) ) - 9
+  Postfix: 3552-**9-3552-**9-
+Evaluated: 36
+
+    Infix: ( ( 5 * ( 4 + 2 ) - ( 8 + 8 ) / 2 ) - 9 ) ^ 3
+  Postfix: 542+*88+2/-9-3^542+*88+2/-9-3^
+Evaluated: 2197
+
+    Infix: ( ( 5 + 5 * ( 6 - 2 ) + 4 ^ 2 ) * 8 )
+  Postfix: 5562-*+42^+8*5562-*+42^+8*
+Evaluated: 328
+
+    Infix: ( ( ( 3 ^ 4 ) ) )
+  Postfix: 34^34^
+Evaluated: 81
+
+[Error] - Adjacent Oprators: 1+*2
+
+[Error] - Adjacent Oprands: 12*3^4
+
+[Error] - Missing Parenthesis: (1+2
+
+[Error] - Extra Parenthesis: (1+2)*3)
+
